@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+json5 = "==0.9.4"
+jsonschema = "==3.2.0"
+numpy = "==1.18.4"
+pandas = "==1.0.1"
+pipenv = "==2020.6.2"
+tabula = "==1.0.5"
+tabula-py = "==1.4.2"
+virtualenv = "==15.1.0"
+virtualenv-clone = "==0.5.4"
+Flask = "==1.1.2"
+Flask-SQLAlchemy = "==2.4.4"
+Flask-Migrate = "==2.3.1"
+Flask-JWT-Extended = "==3.24.1"
+PyJWT = "==1.7.1"
+SQLAlchemy = "==1.3.18"
+flask-mail = "*"
+bcrypt = "*"
+cloudinary = "*"
+
+[requires]
+python_version = "3.7"
